@@ -1,0 +1,75 @@
+.moduleContainer {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  transition: 0.3s ease-in-out;
+  z-index: 999;
+}
+.bgCover {
+  background-color: #787a7c;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+}
+.showModuleContainer {
+  transform: scale(0);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.moduleWrapper {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  background-color: white;
+  padding: 80px 150px 80px 150px;
+  position: fixed;
+  border-radius: 5px;
+  top: 25%;
+  z-index: 100;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.moduleCLoseBTN {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 35px;
+  color: #bb2525;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* Mobile*/
+@media (max-width: 500px) {
+  .moduleWrapper {
+    font-size: 20px;
+    padding: 60px 100px 70px 100px;
+    top: 40%;
+  }
+}
+
+/* Mobile*/
+@media (max-width: 400px) {
+  .moduleWrapper {
+    font-size: 12px;
+    padding: 50px 70px 50px 70px;
+    top: 40%;
+  }
+}
+/* Mobile*/
+@media (max-width: 320px) {
+  .moduleWrapper {
+    font-size: 12px;
+    padding: 50px 70px 50px 70px;
+    top: 40%;
+  }
+}

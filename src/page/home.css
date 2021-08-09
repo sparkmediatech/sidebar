@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 30px;
+  height: 100%;
+  display: flex;
+}
+
+.Home {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  margin-left: 10px;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+.sidebar-BTN {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.moduleBTN {
+  background-color: black;
+  padding: 5px 35px 5px 35px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.menuContainer {
+  margin-top: 40px;
+}
+.toggleBar {
+  width: 30px;
+  height: 30px;
+  color: #49a6e9;
+  cursor: pointer;
+  transition: 1s ease-in;
+}
+.toggleBar2 {
+  cursor: pointer;
+  transform: scale(1.7);
+  width: 30px;
+  height: 30px;
+  color: #49a6e9;
+  transition: 1s ease-in;
+}
